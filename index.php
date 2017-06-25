@@ -1,5 +1,5 @@
 <?php
-
+    $names = array("bob", "sue", "ben", "tina", "ed", "beth", "tim", "kate");
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,8 +10,8 @@
     <h1>These is my peeps!</h1>
     <ul>
         <?php
-            foreach () {
-                echo "<li>""</li>";
+            foreach ($names as $friend) {
+                echo "<li>" 'my peep is' . $friend . "</li>";
             }
         ?>
     </ul>
